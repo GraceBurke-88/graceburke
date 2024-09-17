@@ -1,0 +1,13 @@
+# Ignore everything outside of this directory
+../../*
+
+# Don't ignore this .gitignore file
+!.gitignore
+
+# Allow files inside the BootstrapExport directory
+!about.html
+!assets/
+!contact.html
+!index.html
+!projects.html
+
