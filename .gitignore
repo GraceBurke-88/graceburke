@@ -1,0 +1,36 @@
+# Ignore node modules if you're using npm or similar package managers
+node_modules/
+
+# Ignore Mac-specific system files
+.DS_Store
+
+# Ignore system-specific files (Windows, macOS, Linux)
+Thumbs.db
+desktop.ini
+
+# Bootstrap Studio export and backup files (adjust this based on how your project is structured)
+*.bss.design
+*.bss.bak
+
+# Ignore log files
+*.log
+
+# Ignore environment files (if applicable, e.g., for API keys)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore dependency directories and build outputs
+bower_components/
+vendor/
+
+# Ignore compiled files (such as SCSS/CSS if you use a preprocessor)
+*.scssc
+*.sassc
+*.css.map
+*.js.map
+
+# Ignore Git files
+.git/
